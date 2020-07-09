@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 require 'pathname'
-puts "%|napit0k|Arch::Utilities::AUR|v.0.0.2| Checking for updates for inner git directories."
+puts "%|napit0k|Arch::Utilities::AUR|v.0.0.3| Checking for updates for inner git directories."
 base = Pathname.new(`pwd`.chomp)
 pkgs = base.children.select {|f| File.directory? f }
 ctr = 0
@@ -11,6 +11,7 @@ pkgs.each { |f|
       next
     end
     Dir.chdir dir
+    `git remote update`
     head_local = `git rev-parse --short HEAD` 
     head_new = `git rev-parse --short origin/master`
     if head_new == head_local
