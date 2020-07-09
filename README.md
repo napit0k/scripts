@@ -11,13 +11,15 @@ check_updates.rb
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-notification-center-git
 google-chrome
+teamviewer
 zoom
 
 $ ruby check_updates.rb 
-%|napit0k|Arch::Utilities::AUR| Checking git status for inner directories.
-/home/~~~~/zoom...  ok
-/home/~~~~/google-chrome...  ok
-/home/~~~~/gnome-shell-extension-notification-center-git...  ok
-/home/~~~~/gnome-shell-extension-dash-to-dock...  ok
-Packages are up to date.
+%|napit0k|Arch::Utilities::AUR|v.0.0.3| Checking for updates for inner git directories.
+/home/ivan/tmp/AUR/zoom...  update available to 27f2121
+/home/ivan/tmp/AUR/google-chrome...  ok
+/home/ivan/tmp/AUR/gnome-shell-extension-notification-center-git...  ok
+/home/ivan/tmp/AUR/gnome-shell-extension-dash-to-dock...  update available to 42e08aa
+/home/ivan/tmp/AUR/teamviewer...  ok
+(!!!) some packages have updates (!!!)
 ```
