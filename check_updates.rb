@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 require 'pathname'
-puts "%|napit0k|Arch::Utilities::AUR|v.0.0.3| Checking for updates for inner git directories."
+puts "%|vanchope|Arch::Utilities::AUR|v.0.0.3| Checking for updates for inner git directories."
 base = Pathname.new(`pwd`.chomp)
 pkgs = base.children.select {|f| File.directory? f }
 ctr = 0

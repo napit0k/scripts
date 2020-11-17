@@ -15,7 +15,7 @@ teamviewer
 zoom
 
 $ ruby check_updates.rb 
-%|napit0k|Arch::Utilities::AUR|v.0.0.3| Checking for updates for inner git directories.
+%|vanchope|Arch::Utilities::AUR|v.0.0.3| Checking for updates for inner git directories.
 /home/ivan/tmp/AUR/zoom...  update available to 27f2121
 /home/ivan/tmp/AUR/google-chrome...  ok
 /home/ivan/tmp/AUR/gnome-shell-extension-notification-center-git...  ok
